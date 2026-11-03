@@ -23,6 +23,18 @@ The workflow covers data cleaning, reconciliation logic, dimensional modeling, D
 - **March** recorded the highest mismatch count.
 - **Hospital F** had the highest total transaction amount, making it important from an exposure perspective.
 
+## Sample Data
+
+A reproducible practice dataset is included at [`data/sample_payments.xlsx`](data/sample_payments.xlsx).
+
+The workbook contains:
+
+- `Transactions_Raw` — transaction-level payment records
+- `Hospitals` — hospital dimension data
+- `README` — exercise context and modeling instructions
+
+The dataset is synthetic practice data and intentionally includes dirty text, nulls, invalid amount values, and duplicate transaction IDs so that the Power Query cleaning and reconciliation workflow can be reproduced.
+
 ## Data Preparation
 
 The dataset was cleaned and transformed in Power Query, including:
@@ -83,8 +95,8 @@ hospital-payment-reconciliation-dashboard/
 │   └── Hospital_Payment_Reconciliation_Dashboard.pbix
 ├── screenshots/
 │   └── dashboard-overview.png
+├── data/
+│   └── sample_payments.xlsx
 └── dax/
     └── measures.md
 ```
-
-Additional documentation and sample data can be added later if needed.
