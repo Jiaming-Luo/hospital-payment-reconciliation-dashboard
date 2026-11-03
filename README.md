@@ -51,6 +51,8 @@ Key DAX measures include:
 - Mismatch Amount
 - Mismatch Amount Rate
 
+See the full formulas in [`dax/measures.md`](dax/measures.md).
+
 ## Dashboard Components
 
 The dashboard includes:
@@ -78,11 +80,11 @@ The dashboard includes:
 hospital-payment-reconciliation-dashboard/
 ├── README.md
 ├── dashboard/
+│   └── Hospital_Payment_Reconciliation_Dashboard.pbix
 ├── screenshots/
 │   └── dashboard-overview.png
-├── data/
-├── docs/
 └── dax/
+    └── measures.md
 ```
 
-Additional project files will be added as the portfolio documentation is completed.
+Additional documentation and sample data can be added later if needed.
